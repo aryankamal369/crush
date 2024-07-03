@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Special Page for [Crush's Name]</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome, Pretty Girl!</h1>
+        <p>This page is dedicated to you.</p>
+    </header>
+    <section class="gallery">
+        <h2>Our Memories</h2>
+        <div class="photo-grid">
+            <img src="img1.jpeg" alt="Memory 1">
+            <img src="img2.jpeg" alt="Memory 2">
+            <img src="img3.jpeg" alt="Memory 3">
+            <!-- Add more photos as needed -->
+        </div>
+    </section>
+    <section class="love-calculator">
+        <h2>Love Calculator</h2>
+        <form id="loveForm">
+            <input type="text" id="yourName" placeholder="Your Name">
+            <input type="text" id="crushName" placeholder="Crush's Name">
+            <button type="button" onclick="calculateLove()">Calculate</button>
+        </form>
+        <p id="loveResult"></p>
+    </section>
+    <section class="message">
+        <h2>Special Message</h2>
+        <button id="revealButton">Click to Reveal</button>
+        <p id="hiddenMessage">You are amazing! :)</p>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
